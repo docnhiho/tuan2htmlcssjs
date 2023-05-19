@@ -31,7 +31,7 @@ const userlogin = () => {
             // console.log(json)
             localStorage.setItem("userinfo", JSON.stringify(json));
             localStorage.setItem("token", json.token);
-            window.location.assign(`index.html?id=${json.id}`);
+            window.location.assign(`form.html?id=${json.id}`);
         }
 
         );

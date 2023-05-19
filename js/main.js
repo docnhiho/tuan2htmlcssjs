@@ -65,7 +65,7 @@ function resetf() {
           document.getElementById("lname").value = userinfo.lastName;
           document.getElementById("email").value = userinfo.email;
 
-      })
+  })
 
 
 
